@@ -25,6 +25,7 @@ public class FishUtils {
         } else {
             return fish.getBirthAge() >= START_SINGLE_AGE_FOR_FEMALE && fish.getBirthAge() <= START_SINGLE_AGE_FOR_FEMALE + 5;
         }
+
     }
 
     public static boolean isMarried(Fish fish) {
